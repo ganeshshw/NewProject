@@ -142,6 +142,9 @@ sap.ui.define([
             if (aTableSearchState.length !== 0) {
                 oViewModel.setProperty("/tableNoDataText", this.getResourceBundle().getText("worklistNoDataWithSearchText"));
             }
+        },
+        clickMe :  function(){
+            console.log("Here we are!");
         }
 
     });

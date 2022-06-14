@@ -16,6 +16,7 @@
         </semantic:titleHeading>
 
         <semantic:content>
+        <Button text="Click ME!" />
             <Table
                 id="table"
                 width="auto"
